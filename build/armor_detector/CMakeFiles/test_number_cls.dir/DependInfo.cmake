@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/test/test_number_cls.cpp" "CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o" "gcc" "CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o.d"
+  "/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/test/test_number_cls.cpp" "CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o" "gcc" "CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o.d"
   )
 
 # Targets to which this target links.

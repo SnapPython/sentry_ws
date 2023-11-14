@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/imu_complementary_filter
+# Source directory: /home/mechax/ws_y/rm_ws/src/rm_perception/imu_complementary_filter
 # Build directory: /home/mechax/ws_y/rm_ws/build/imu_complementary_filter
 # 
 # This file includes the relevant testing commands required for 

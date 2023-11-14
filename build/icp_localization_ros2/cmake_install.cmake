@@ -1,4 +1,4 @@
-# Install script for directory: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/icp_localization_ros2
+# Install script for directory: /home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,7 +43,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/icp_localization_ros2/include/")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/include" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -67,11 +67,11 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icp_localization_ros2" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/icp_localization_ros2/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icp_localization_ros2" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icp_localization_ros2" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/icp_localization_ros2/config")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icp_localization_ros2" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/config")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -138,7 +138,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icp_localization_ros2" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/icp_localization_ros2/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/icp_localization_ros2" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

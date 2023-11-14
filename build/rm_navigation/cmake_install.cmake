@@ -1,4 +1,4 @@
-# Install script for directory: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_navigation
+# Install script for directory: /home/mechax/ws_y/rm_ws/src/rm_navigation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -43,15 +43,15 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_navigation/params")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/rm_navigation/params")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_navigation/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/rm_navigation/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_navigation/map")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/rm_navigation/map")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -110,7 +110,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_navigation/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/rm_navigation" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/rm_navigation/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

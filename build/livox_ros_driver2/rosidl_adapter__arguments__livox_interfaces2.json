@@ -1,7 +1,7 @@
 {
   "package_name": "livox_ros_driver2",
   "non_idl_tuples": [
-    "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_sensors/livox_ros_driver2:msg/CustomPoint.msg",
-    "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_sensors/livox_ros_driver2:msg/CustomMsg.msg"
+    "/home/mechax/ws_y/rm_ws/src/rm_sensors/livox_ros_driver2:msg/CustomPoint.msg",
+    "/home/mechax/ws_y/rm_ws/src/rm_sensors/livox_ros_driver2:msg/CustomMsg.msg"
   ]
 }

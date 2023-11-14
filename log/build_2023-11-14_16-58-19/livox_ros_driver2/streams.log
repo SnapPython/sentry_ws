@@ -1,0 +1,5 @@
+[0.169s] Invoking command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/livox_ros_driver2 -- -j16 -l16
+[0.337s] [0mCMake Error: The source directory "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_sensors/livox_ros_driver2" does not exist.
+[0.337s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.338s] gmake: *** [Makefile:1423: cmake_check_build_system] Error 1
+[0.343s] Invoked command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/livox_ros_driver2 -- -j16 -l16

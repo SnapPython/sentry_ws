@@ -1,7 +1,7 @@
 CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o: \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp \
  /usr/include/stdc-predef.h \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/pnp_solver.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/pnp_solver.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__struct.hpp \
  /usr/include/c++/11/algorithm /usr/include/c++/11/utility \
@@ -268,7 +268,7 @@ CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o: \
  /usr/include/opencv4/opencv2/core/optim.hpp \
  /usr/include/opencv4/opencv2/core/ovx.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp \
  /usr/include/opencv4/opencv2/calib3d.hpp \
  /usr/include/opencv4/opencv2/features2d.hpp \
  /usr/include/opencv4/opencv2/flann/miniflann.hpp \

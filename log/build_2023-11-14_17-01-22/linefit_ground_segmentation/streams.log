@@ -1,0 +1,4 @@
+[0.183s] Invoking command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation -- -j16 -l16
+[0.426s] [35m[1mConsolidate compiler generated dependencies of target linefit_ground_segmentation[0m
+[0.426s] [ 20%] [32m[1mLinking CXX shared library liblinefit_ground_segmentation.so[0m
+[0.756s] [100%] Built target linefit_ground_segmentation

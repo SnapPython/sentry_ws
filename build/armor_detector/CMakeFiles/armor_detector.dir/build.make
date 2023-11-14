@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/armor_detector
@@ -70,60 +70,60 @@ include CMakeFiles/armor_detector.dir/progress.make
 include CMakeFiles/armor_detector.dir/flags.make
 
 CMakeFiles/armor_detector.dir/src/detector.cpp.o: CMakeFiles/armor_detector.dir/flags.make
-CMakeFiles/armor_detector.dir/src/detector.cpp.o: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector.cpp
+CMakeFiles/armor_detector.dir/src/detector.cpp.o: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector.cpp
 CMakeFiles/armor_detector.dir/src/detector.cpp.o: CMakeFiles/armor_detector.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/detector.cpp.o -MF CMakeFiles/armor_detector.dir/src/detector.cpp.o.d -o CMakeFiles/armor_detector.dir/src/detector.cpp.o -c /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/detector.cpp.o -MF CMakeFiles/armor_detector.dir/src/detector.cpp.o.d -o CMakeFiles/armor_detector.dir/src/detector.cpp.o -c /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector.cpp
 
 CMakeFiles/armor_detector.dir/src/detector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armor_detector.dir/src/detector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector.cpp > CMakeFiles/armor_detector.dir/src/detector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector.cpp > CMakeFiles/armor_detector.dir/src/detector.cpp.i
 
 CMakeFiles/armor_detector.dir/src/detector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armor_detector.dir/src/detector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector.cpp -o CMakeFiles/armor_detector.dir/src/detector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector.cpp -o CMakeFiles/armor_detector.dir/src/detector.cpp.s
 
 CMakeFiles/armor_detector.dir/src/detector_node.cpp.o: CMakeFiles/armor_detector.dir/flags.make
-CMakeFiles/armor_detector.dir/src/detector_node.cpp.o: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector_node.cpp
+CMakeFiles/armor_detector.dir/src/detector_node.cpp.o: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp
 CMakeFiles/armor_detector.dir/src/detector_node.cpp.o: CMakeFiles/armor_detector.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/detector_node.cpp.o -MF CMakeFiles/armor_detector.dir/src/detector_node.cpp.o.d -o CMakeFiles/armor_detector.dir/src/detector_node.cpp.o -c /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector_node.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/detector_node.cpp.o -MF CMakeFiles/armor_detector.dir/src/detector_node.cpp.o.d -o CMakeFiles/armor_detector.dir/src/detector_node.cpp.o -c /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp
 
 CMakeFiles/armor_detector.dir/src/detector_node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armor_detector.dir/src/detector_node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector_node.cpp > CMakeFiles/armor_detector.dir/src/detector_node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp > CMakeFiles/armor_detector.dir/src/detector_node.cpp.i
 
 CMakeFiles/armor_detector.dir/src/detector_node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armor_detector.dir/src/detector_node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector_node.cpp -o CMakeFiles/armor_detector.dir/src/detector_node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp -o CMakeFiles/armor_detector.dir/src/detector_node.cpp.s
 
 CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o: CMakeFiles/armor_detector.dir/flags.make
-CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/number_classifier.cpp
+CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/number_classifier.cpp
 CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o: CMakeFiles/armor_detector.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o -MF CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o.d -o CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o -c /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/number_classifier.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o -MF CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o.d -o CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o -c /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/number_classifier.cpp
 
 CMakeFiles/armor_detector.dir/src/number_classifier.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armor_detector.dir/src/number_classifier.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/number_classifier.cpp > CMakeFiles/armor_detector.dir/src/number_classifier.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/number_classifier.cpp > CMakeFiles/armor_detector.dir/src/number_classifier.cpp.i
 
 CMakeFiles/armor_detector.dir/src/number_classifier.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armor_detector.dir/src/number_classifier.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/number_classifier.cpp -o CMakeFiles/armor_detector.dir/src/number_classifier.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/number_classifier.cpp -o CMakeFiles/armor_detector.dir/src/number_classifier.cpp.s
 
 CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o: CMakeFiles/armor_detector.dir/flags.make
-CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp
+CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp
 CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o: CMakeFiles/armor_detector.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o -MF CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o.d -o CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o -c /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o -MF CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o.d -o CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o -c /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp
 
 CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp > CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp > CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.i
 
 CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp -o CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp -o CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.s
 
 # Object files for target armor_detector
 armor_detector_OBJECTS = \
@@ -344,6 +344,6 @@ CMakeFiles/armor_detector.dir/clean:
 .PHONY : CMakeFiles/armor_detector.dir/clean
 
 CMakeFiles/armor_detector.dir/depend:
-	cd /home/mechax/ws_y/rm_ws/build/armor_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles/armor_detector.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mechax/ws_y/rm_ws/build/armor_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles/armor_detector.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/armor_detector.dir/depend
 

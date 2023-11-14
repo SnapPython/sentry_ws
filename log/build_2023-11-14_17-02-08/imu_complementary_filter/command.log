@@ -1,0 +1,2 @@
+Invoking command in '/home/mechax/ws_y/rm_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_perception/imu_complementary_filter -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/imu_complementary_filter
+Invoked command in '/home/mechax/ws_y/rm_ws/build/imu_complementary_filter' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_perception/imu_complementary_filter -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/imu_complementary_filter

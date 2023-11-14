@@ -1,5 +1,5 @@
 CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
@@ -591,7 +591,7 @@ CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: \
  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_single_threaded_executor.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/executors/static_executor_entities_collector.hpp \
  /opt/ros/humble/include/rclcpp/rclcpp/experimental/executable_list.hpp \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/detector_node.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/detector_node.hpp \
  /opt/ros/humble/include/image_transport/image_transport/image_transport.hpp \
  /opt/ros/humble/include/image_transport/image_transport/camera_publisher.hpp \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/image.hpp \
@@ -687,7 +687,7 @@ CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: \
  /opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/compressed_image__traits.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/uv_coordinate__traits.hpp \
  /opt/ros/humble/include/visualization_msgs/visualization_msgs/msg/detail/mesh_file__traits.hpp \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/detector.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/detector.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
  /usr/include/opencv4/opencv2/core/version.hpp \
@@ -729,8 +729,8 @@ CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: \
  /usr/include/opencv4/opencv2/core/optim.hpp \
  /usr/include/opencv4/opencv2/core/ovx.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/number_classifier.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/number_classifier.hpp \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/calib3d.hpp \
  /usr/include/opencv4/opencv2/features2d.hpp \
@@ -813,24 +813,24 @@ CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/debug_armors.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/debug_lights.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_light__struct.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/debug_light__traits.hpp \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/pnp_solver.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_armors.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__struct.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__struct.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__builder.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armors__traits.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_armor__traits.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/debug_lights.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__struct.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__struct.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__builder.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_lights__traits.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/debug_light__traits.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/pnp_solver.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/point.hpp \
  /opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/point__builder.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/armors.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/armors__struct.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/armor__struct.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/armors__builder.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/armors__traits.hpp \
- /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_generator_cpp/auto_aim_interfaces/msg/detail/armor__traits.hpp
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/armors.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__struct.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__struct.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__builder.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armors__traits.hpp \
+ /home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/include/auto_aim_interfaces/auto_aim_interfaces/msg/detail/armor__traits.hpp

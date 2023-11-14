@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -389,7 +389,7 @@ armor_tracker_IS_TOP_LEVEL:STATIC=ON
 armor_tracker_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;std_srvs::std_srvs__rosidl_generator_c;general;std_srvs::std_srvs__rosidl_typesupport_fastrtps_c;general;std_srvs::std_srvs__rosidl_typesupport_introspection_c;general;std_srvs::std_srvs__rosidl_typesupport_c;general;std_srvs::std_srvs__rosidl_typesupport_fastrtps_cpp;general;std_srvs::std_srvs__rosidl_typesupport_introspection_cpp;general;std_srvs::std_srvs__rosidl_typesupport_cpp;general;std_srvs::std_srvs__rosidl_generator_py;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;visualization_msgs::visualization_msgs__rosidl_generator_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_cpp;general;visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_cpp;general;visualization_msgs::visualization_msgs__rosidl_typesupport_cpp;general;visualization_msgs::visualization_msgs__rosidl_generator_py;general;message_filters::message_filters;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_generator_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_fastrtps_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_introspection_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_introspection_cpp;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_cpp;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_generator_py;
 
 //Value Computed by CMake
-armor_tracker_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker
+armor_tracker_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_tracker
 
 //The directory containing a CMake configuration file for auto_aim_interfaces.
 auto_aim_interfaces_DIR:PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake
@@ -684,7 +684,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_tracker
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -807,8 +807,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=3
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

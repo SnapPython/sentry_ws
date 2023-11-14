@@ -1,5 +1,5 @@
 CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o: \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp \
+ /home/mechax/ws_y/rm_ws/src/rm_perception/pointcloud_to_laserscan/src/dummy_pointcloud_publisher.cpp \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

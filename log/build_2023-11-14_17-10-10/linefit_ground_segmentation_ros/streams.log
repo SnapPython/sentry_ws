@@ -1,0 +1,115 @@
+[0.164s] Invoking command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros
+[0.455s] -- The C compiler identification is GNU 11.4.0
+[0.695s] -- The CXX compiler identification is GNU 11.4.0
+[0.717s] -- Detecting C compiler ABI info
+[1.097s] -- Detecting C compiler ABI info - done
+[1.106s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.107s] -- Detecting C compile features
+[1.107s] -- Detecting C compile features - done
+[1.112s] -- Detecting CXX compiler ABI info
+[1.354s] -- Detecting CXX compiler ABI info - done
+[1.363s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.363s] -- Detecting CXX compile features
+[1.364s] -- Detecting CXX compile features - done
+[1.367s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.694s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.988s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.994s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.005s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.023s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.050s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.132s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.135s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.293s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.336s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.418s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.434s] -- Looking for pthread.h
+[2.587s] -- Looking for pthread.h - found
+[2.587s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.748s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.750s] -- Found Threads: TRUE  
+[4.055s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.057s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.057s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[4.105s] -- Checking for module 'eigen3'
+[4.127s] --   Found eigen3, version 3.4.0
+[4.189s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[4.189s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.237s] -- Checking for module 'flann'
+[4.261s] --   Found flann, version 1.9.1
+[4.333s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[4.333s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[5.996s] -- Checking for module 'libusb-1.0'
+[6.019s] --   Found libusb-1.0, version 1.0.25
+[6.084s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[6.086s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.195s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.438s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[6.447s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[6.457s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[6.695s] -- Found Qhull version 8.0.2
+[6.941s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.168s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[7.169s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[7.172s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[7.174s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[7.176s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[7.178s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[7.178s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[7.179s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[7.180s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[7.182s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[7.185s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[7.187s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[7.189s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[7.191s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[7.193s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[7.196s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[7.199s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[7.202s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[7.206s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[7.208s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[7.210s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[7.210s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[7.211s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[7.213s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[7.216s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[7.621s] -- Configuring done
+[7.714s] -- Generating done
+[7.719s] -- Build files have been written to: /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros
+[7.766s] Invoked command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/lib:${LD_LIBRARY_PATH} /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros
+[7.769s] Invoking command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros -- -j16 -l16
+[7.855s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_segmentation_test_node.dir/src/ground_segmentation_test_node.cc.o[0m
+[7.855s] [ 50%] [32mBuilding CXX object CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o[0m
+[21.160s] [ 75%] [32m[1mLinking CXX executable ground_segmentation_test_node[0m
+[22.840s] [ 75%] Built target ground_segmentation_test_node
+[30.885s] [100%] [32m[1mLinking CXX executable ground_segmentation_node[0m
+[31.330s] [100%] Built target ground_segmentation_node
+[31.340s] Invoked command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros -- -j16 -l16
+[31.358s] Invoking command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros
+[31.362s] -- Install configuration: ""
+[31.363s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node
+[31.363s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_node" to ""
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node
+[31.364s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/lib/linefit_ground_segmentation_ros/ground_segmentation_test_node" to ""
+[31.364s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch
+[31.364s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation.launch.py
+[31.364s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/test.launch.py
+[31.364s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/launch/segmentation_params.yaml
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation_ros
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation_ros
+[31.364s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.sh
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/ament_prefix_path.dsv
+[31.364s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.sh
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/environment/path.dsv
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.bash
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.sh
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.zsh
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/local_setup.dsv
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.dsv
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/ament_index/resource_index/packages/linefit_ground_segmentation_ros
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig.cmake
+[31.364s] -- Installing: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/cmake/linefit_ground_segmentation_rosConfig-version.cmake
+[31.365s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation_ros/share/linefit_ground_segmentation_ros/package.xml
+[31.366s] Invoked command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros' returned '0': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation_ros

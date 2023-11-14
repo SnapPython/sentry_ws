@@ -1,1 +1,6 @@
-/home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/ament_cmake_python/auto_aim_interfaces/auto_aim_interfaces.egg-info/SOURCES.txt
+setup.py
+auto_aim_interfaces/__init__.py
+auto_aim_interfaces.egg-info/PKG-INFO
+auto_aim_interfaces.egg-info/SOURCES.txt
+auto_aim_interfaces.egg-info/dependency_links.txt
+auto_aim_interfaces.egg-info/top_level.txt

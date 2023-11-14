@@ -1102,7 +1102,7 @@ fast_lio_BINARY_DIR:STATIC=/home/mechax/ws_y/rm_ws/build/fast_lio
 fast_lio_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-fast_lio_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio
+fast_lio_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio
 
 //Dependencies for the target
 fast_lio__rosidl_generator_c_LIB_DEPENDS:STATIC=general;rosidl_runtime_c::rosidl_runtime_c;general;rcutils::rcutils;
@@ -1482,7 +1482,7 @@ CMAKE_HAVE_REMOVE:INTERNAL=1
 CMAKE_HAVE_SHMAT:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //Have library ICE

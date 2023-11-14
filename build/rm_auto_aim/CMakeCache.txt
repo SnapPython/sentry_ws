@@ -326,7 +326,7 @@ rm_auto_aim_BINARY_DIR:STATIC=/home/mechax/ws_y/rm_ws/build/rm_auto_aim
 rm_auto_aim_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-rm_auto_aim_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/rm_auto_aim
+rm_auto_aim_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/rm_auto_aim/rm_auto_aim
 
 //Path to a program.
 xmllint_BIN:FILEPATH=/usr/bin/xmllint
@@ -416,7 +416,7 @@ CMAKE_GENERATOR_PLATFORM:INTERNAL=
 CMAKE_GENERATOR_TOOLSET:INTERNAL=
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/rm_auto_aim
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/rm_auto_aim/rm_auto_aim
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER

@@ -1,5 +1,5 @@
 CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o: \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/number_classifier.cpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/number_classifier.cpp \
  /usr/include/stdc-predef.h /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/cvdef.h \
  /usr/include/opencv4/opencv2/core/version.hpp /usr/include/c++/11/limits \
@@ -351,5 +351,5 @@ CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o: \
  /usr/include/x86_64-linux-gnu/c++/11/bits/basic_file.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++io.h \
  /usr/include/c++/11/bits/fstream.tcc \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/number_classifier.hpp
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/number_classifier.hpp

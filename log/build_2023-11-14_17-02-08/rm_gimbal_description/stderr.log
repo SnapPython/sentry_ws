@@ -1,0 +1,1 @@
+[0mCMake Error: The source "/home/mechax/ws_y/rm_ws/src/rm_gimbal_description/CMakeLists.txt" does not match the source "/home/mechax/ws_y/rm_ws/src/src/rm_gimbal_description/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m

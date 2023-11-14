@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces
@@ -330,6 +330,6 @@ CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesu
 CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/auto_aim_interfaces/msg/debug_lights__type_support.cpp
 CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/auto_aim_interfaces/msg/target__type_support.cpp
 CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/depend: rosidl_typesupport_cpp/auto_aim_interfaces/msg/tracker_info__type_support.cpp
-	cd /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/auto_aim_interfaces__rosidl_typesupport_cpp.dir/depend
 

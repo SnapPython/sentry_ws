@@ -1,0 +1,1 @@
+Invoking command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/icp_localization_ros2 -- -j16 -l16

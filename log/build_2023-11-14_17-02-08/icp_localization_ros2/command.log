@@ -1,0 +1,2 @@
+Invoking command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/icp_localization_ros2
+Invoked command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/icp_localization_ros2

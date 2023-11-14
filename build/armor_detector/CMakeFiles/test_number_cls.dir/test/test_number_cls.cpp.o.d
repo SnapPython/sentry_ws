@@ -1,5 +1,5 @@
 CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o: \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/test/test_number_cls.cpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/test/test_number_cls.cpp \
  /usr/include/stdc-predef.h \
  /opt/ros/humble/src/gtest_vendor/include/gtest/gtest.h \
  /usr/include/c++/11/cstddef \
@@ -322,7 +322,7 @@ CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o: \
  /usr/include/opencv4/opencv2/core/bufferpool.hpp \
  /usr/include/opencv4/opencv2/core/mat.inl.hpp /usr/include/c++/11/chrono \
  /usr/include/c++/11/ratio /usr/include/c++/11/bits/parse_numbers.h \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/number_classifier.hpp \
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/number_classifier.hpp \
  /usr/include/opencv4/opencv2/opencv.hpp \
  /usr/include/opencv4/opencv2/core.hpp \
  /usr/include/opencv4/opencv2/core/persistence.hpp \
@@ -418,4 +418,4 @@ CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o: \
  /usr/include/opencv4/opencv2/video.hpp \
  /usr/include/opencv4/opencv2/video/tracking.hpp \
  /usr/include/opencv4/opencv2/video/background_segm.hpp \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp
+ /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/include/armor_detector/armor.hpp

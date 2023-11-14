@@ -1,0 +1,3 @@
+[0mCMake Error: The source directory "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/ros2-mindvision-camera" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.[0m
+gmake: *** [Makefile:308: cmake_check_build_system] Error 1

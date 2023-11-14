@@ -1,0 +1,3 @@
+[0.282s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_gimbal_description -- -j16 -l16
+[0.344s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_gimbal_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_gimbal_description -- -j16 -l16
+[0.500s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_gimbal_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/rm_gimbal_description

@@ -1,1 +1,18 @@
-/home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/rosidl_adapter/auto_aim_interfaces/msg/DebugLight.idl
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from auto_aim_interfaces/msg/DebugLight.msg
+// generated code does not contain a copyright notice
+
+
+module auto_aim_interfaces {
+  module msg {
+    struct DebugLight {
+      int32 center_x;
+
+      boolean is_light;
+
+      float ratio;
+
+      float angle;
+    };
+  };
+};

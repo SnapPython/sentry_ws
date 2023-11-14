@@ -1,1 +1,4 @@
-/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/DebugLight.msg
+int32 center_x
+bool is_light
+float32 ratio
+float32 angle

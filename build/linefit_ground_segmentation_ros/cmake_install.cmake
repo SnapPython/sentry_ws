@@ -1,4 +1,4 @@
-# Install script for directory: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros
+# Install script for directory: /home/mechax/ws_y/rm_ws/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -83,7 +83,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/linefit_ground_segmentation_ros" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/launch")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/linefit_ground_segmentation_ros" TYPE DIRECTORY FILES "/home/mechax/ws_y/rm_ws/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/launch")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -146,7 +146,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/linefit_ground_segmentation_ros" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/linefit_ground_segmentation_ros" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/package.xml")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

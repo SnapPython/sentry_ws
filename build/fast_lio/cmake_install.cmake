@@ -1,4 +1,4 @@
-# Install script for directory: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio
+# Install script for directory: /home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -360,7 +360,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fast_lio/msg" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio/msg/Pose6D.msg")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fast_lio/msg" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio/msg/Pose6D.msg")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
@@ -385,9 +385,9 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fast_lio" TYPE DIRECTORY FILES
-    "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio/config"
-    "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio/launch"
-    "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio/rviz"
+    "/home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio/config"
+    "/home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio/launch"
+    "/home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio/rviz"
     )
 endif()
 
@@ -643,7 +643,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fast_lio" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/fast_lio" TYPE FILE FILES "/home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio/package.xml")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)

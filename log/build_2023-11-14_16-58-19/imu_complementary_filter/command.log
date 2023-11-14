@@ -1,0 +1,2 @@
+Invoking command in '/home/mechax/ws_y/rm_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/imu_complementary_filter -- -j16 -l16
+Invoked command in '/home/mechax/ws_y/rm_ws/build/imu_complementary_filter' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/imu_complementary_filter -- -j16 -l16

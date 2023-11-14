@@ -1,5 +1,5 @@
 CMakeFiles/ground_segmentation_node.dir/src/ground_segmentation_node.cc.o: \
- /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_node.cc \
+ /home/mechax/ws_y/rm_ws/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation_ros/src/ground_segmentation_node.cc \
  /usr/include/stdc-predef.h /usr/include/c++/11/memory \
  /usr/include/c++/11/bits/stl_algobase.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \

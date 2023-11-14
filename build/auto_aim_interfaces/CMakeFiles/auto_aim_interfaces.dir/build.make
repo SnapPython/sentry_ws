@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces
@@ -66,14 +66,14 @@ include CMakeFiles/auto_aim_interfaces.dir/compiler_depend.make
 # Include the progress variables for this target.
 include CMakeFiles/auto_aim_interfaces.dir/progress.make
 
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/Armor.msg
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/Armors.msg
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/Target.msg
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/DebugLight.msg
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/DebugLights.msg
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/DebugArmor.msg
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/DebugArmors.msg
-CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/TrackerInfo.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/Armor.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/Armors.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/Target.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/DebugLight.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/DebugLights.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/DebugArmor.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/DebugArmors.msg
+CMakeFiles/auto_aim_interfaces: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces/msg/TrackerInfo.msg
 CMakeFiles/auto_aim_interfaces: /opt/ros/humble/share/std_msgs/msg/Bool.idl
 CMakeFiles/auto_aim_interfaces: /opt/ros/humble/share/std_msgs/msg/Byte.idl
 CMakeFiles/auto_aim_interfaces: /opt/ros/humble/share/std_msgs/msg/ByteMultiArray.idl
@@ -147,6 +147,6 @@ CMakeFiles/auto_aim_interfaces.dir/clean:
 .PHONY : CMakeFiles/auto_aim_interfaces.dir/clean
 
 CMakeFiles/auto_aim_interfaces.dir/depend:
-	cd /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/CMakeFiles/auto_aim_interfaces.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/CMakeFiles/auto_aim_interfaces.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/auto_aim_interfaces.dir/depend
 

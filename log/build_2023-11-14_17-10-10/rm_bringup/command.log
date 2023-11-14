@@ -1,0 +1,6 @@
+Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_bringup -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_bringup
+Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_bringup -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_bringup
+Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_bringup -- -j16 -l16
+Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_bringup -- -j16 -l16
+Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/rm_bringup
+Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/rm_bringup

@@ -1,0 +1,6 @@
+[0.265s] Invoking command in '/home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan -- -j16 -l16
+[0.303s] [ 20%] Built target pointcloud_to_laserscan_node
+[0.306s] [ 40%] Built target laserscan_to_pointcloud_node
+[0.314s] [ 60%] Built target laserscan_to_pointcloud
+[0.335s] [ 80%] Built target pointcloud_to_laserscan
+[0.349s] [100%] Built target dummy_pointcloud_publisher

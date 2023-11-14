@@ -1,1 +1,6 @@
-/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/TrackerInfo.msg
+# Difference between the current measurement and prediction
+float64 position_diff
+float64 yaw_diff
+# Unfiltered position and yaw
+geometry_msgs/Point position
+float64 yaw

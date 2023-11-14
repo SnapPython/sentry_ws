@@ -1,0 +1,21 @@
+[0.731s] Invoking command in '/home/mechax/ws_y/rm_ws/build/my_package': PYTHONPATH=/home/mechax/ws_y/rm_ws/build/my_package/prefix_override:/home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mechax/ws_y/rm_ws/build/my_package/build --no-deps install_data
+[0.960s] running develop
+[0.961s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.961s]   warnings.warn(
+[0.961s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.961s]   warnings.warn(
+[1.035s] running egg_info
+[1.035s] writing my_package.egg-info/PKG-INFO
+[1.035s] writing dependency_links to my_package.egg-info/dependency_links.txt
+[1.035s] writing entry points to my_package.egg-info/entry_points.txt
+[1.035s] writing requirements to my_package.egg-info/requires.txt
+[1.036s] writing top-level names to my_package.egg-info/top_level.txt
+[1.037s] reading manifest file 'my_package.egg-info/SOURCES.txt'
+[1.037s] writing manifest file 'my_package.egg-info/SOURCES.txt'
+[1.056s] running build_ext
+[1.056s] Creating /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[1.057s] Installing my_robot_driver script to /home/mechax/ws_y/rm_ws/install/my_package/lib/my_package
+[1.057s] 
+[1.057s] Installed /home/mechax/ws_y/rm_ws/build/my_package
+[1.057s] running install_data
+[1.094s] Invoked command in '/home/mechax/ws_y/rm_ws/build/my_package' returned '0': PYTHONPATH=/home/mechax/ws_y/rm_ws/build/my_package/prefix_override:/home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/mechax/ws_y/rm_ws/build/my_package/build --no-deps install_data

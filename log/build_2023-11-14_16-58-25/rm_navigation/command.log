@@ -1,0 +1,2 @@
+Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/src/rm_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_navigation
+Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_navigation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/src/rm_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_navigation

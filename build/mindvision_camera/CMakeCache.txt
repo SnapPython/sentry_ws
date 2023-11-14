@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -440,7 +440,7 @@ mindvision_camera_IS_TOP_LEVEL:STATIC=ON
 mindvision_camera_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;sensor_msgs::sensor_msgs__rosidl_generator_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;general;sensor_msgs::sensor_msgs__rosidl_generator_py;general;image_transport::image_transport;general;camera_info_manager::camera_info_manager;general;MVSDK;
 
 //Value Computed by CMake
-mindvision_camera_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/ros2-mindvision-camera
+mindvision_camera_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/ros2-mindvision-camera
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/x86_64-linux-gnu/libcrypto.so
@@ -663,7 +663,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/ros2-mindvision-camera
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/ros2-mindvision-camera
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -788,8 +788,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=3
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

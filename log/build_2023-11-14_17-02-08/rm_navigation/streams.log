@@ -1,0 +1,3 @@
+[0.177s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_navigation -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_navigation
+[0.182s] [0mCMake Error: The source "/home/mechax/ws_y/rm_ws/src/rm_navigation/CMakeLists.txt" does not match the source "/home/mechax/ws_y/rm_ws/src/src/rm_navigation/CMakeLists.txt" used to generate cache.  Re-run cmake with a different source directory.[0m
+[0.194s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_navigation' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_navigation -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_navigation

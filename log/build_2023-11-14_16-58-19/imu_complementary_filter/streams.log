@@ -1,0 +1,5 @@
+[0.134s] Invoking command in '/home/mechax/ws_y/rm_ws/build/imu_complementary_filter': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/imu_complementary_filter -- -j16 -l16
+[0.298s] [0mCMake Error: The source directory "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/imu_complementary_filter" does not exist.
+[0.299s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.299s] gmake: *** [Makefile:335: cmake_check_build_system] Error 1
+[0.306s] Invoked command in '/home/mechax/ws_y/rm_ws/build/imu_complementary_filter' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/imu_complementary_filter -- -j16 -l16

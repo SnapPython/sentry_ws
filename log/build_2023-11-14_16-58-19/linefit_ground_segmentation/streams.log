@@ -1,0 +1,5 @@
+[0.185s] Invoking command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation -- -j16 -l16
+[0.354s] [0mCMake Error: The source directory "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation" does not exist.
+[0.354s] Specify --help for usage, or press the help button on the CMake GUI.[0m
+[0.354s] gmake: *** [Makefile:362: cmake_check_build_system] Error 1
+[0.361s] Invoked command in '/home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation -- -j16 -l16

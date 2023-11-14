@@ -25,7 +25,7 @@ AMENT_CMAKE_ENVIRONMENT_PARENT_PREFIX_PATH_GENERATION:BOOL=ON
 
 //Replace the CMake install command with a custom implementation
 // using symlinks instead of copying resources
-AMENT_CMAKE_SYMLINK_INSTALL:BOOL=1
+AMENT_CMAKE_SYMLINK_INSTALL:BOOL=OFF
 
 //Generate an uninstall target to revert the effects of the install
 // step
@@ -404,7 +404,7 @@ armor_detector_IS_TOP_LEVEL:STATIC=ON
 armor_detector_LIB_DEPENDS:STATIC=general;rclcpp::rclcpp;general;rclcpp_components::component_manager;general;sensor_msgs::sensor_msgs__rosidl_generator_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_fastrtps_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_c;general;sensor_msgs::sensor_msgs__rosidl_typesupport_introspection_cpp;general;sensor_msgs::sensor_msgs__rosidl_typesupport_cpp;general;sensor_msgs::sensor_msgs__rosidl_generator_py;general;geometry_msgs::geometry_msgs__rosidl_generator_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_c;general;geometry_msgs::geometry_msgs__rosidl_typesupport_fastrtps_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_introspection_cpp;general;geometry_msgs::geometry_msgs__rosidl_typesupport_cpp;general;geometry_msgs::geometry_msgs__rosidl_generator_py;general;visualization_msgs::visualization_msgs__rosidl_generator_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_fastrtps_cpp;general;visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_c;general;visualization_msgs::visualization_msgs__rosidl_typesupport_introspection_cpp;general;visualization_msgs::visualization_msgs__rosidl_typesupport_cpp;general;visualization_msgs::visualization_msgs__rosidl_generator_py;general;message_filters::message_filters;general;cv_bridge::cv_bridge;general;image_transport::image_transport;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_generator_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_fastrtps_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_introspection_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_c;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_fastrtps_cpp;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_introspection_cpp;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_typesupport_cpp;general;auto_aim_interfaces::auto_aim_interfaces__rosidl_generator_py;general;opencv_calib3d;general;opencv_core;general;opencv_dnn;general;opencv_features2d;general;opencv_flann;general;opencv_highgui;general;opencv_imgcodecs;general;opencv_imgproc;general;opencv_ml;general;opencv_objdetect;general;opencv_photo;general;opencv_stitching;general;opencv_video;general;opencv_videoio;general;opencv_alphamat;general;opencv_aruco;general;opencv_barcode;general;opencv_bgsegm;general;opencv_bioinspired;general;opencv_ccalib;general;opencv_datasets;general;opencv_dnn_objdetect;general;opencv_dnn_superres;general;opencv_dpm;general;opencv_face;general;opencv_freetype;general;opencv_fuzzy;general;opencv_hdf;general;opencv_hfs;general;opencv_img_hash;general;opencv_intensity_transform;general;opencv_line_descriptor;general;opencv_mcc;general;opencv_optflow;general;opencv_phase_unwrapping;general;opencv_plot;general;opencv_quality;general;opencv_rapid;general;opencv_reg;general;opencv_rgbd;general;opencv_saliency;general;opencv_shape;general;opencv_stereo;general;opencv_structured_light;general;opencv_superres;general;opencv_surface_matching;general;opencv_text;general;opencv_tracking;general;opencv_videostab;general;opencv_viz;general;opencv_wechat_qrcode;general;opencv_ximgproc;general;opencv_xobjdetect;general;opencv_xphoto;
 
 //Value Computed by CMake
-armor_detector_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector
+armor_detector_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector
 
 //The directory containing a CMake configuration file for auto_aim_interfaces.
 auto_aim_interfaces_DIR:PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/share/auto_aim_interfaces/cmake
@@ -726,7 +726,7 @@ CMAKE_HAVE_LIBC_PTHREAD:INTERNAL=1
 CMAKE_HAVE_PTHREAD_H:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //ADVANCED property for variable: CMAKE_LINKER
@@ -861,8 +861,6 @@ _Python3_EXECUTABLE:INTERNAL=/usr/bin/python3.10
 //Python3 Properties
 _Python3_INTERPRETER_PROPERTIES:INTERNAL=Python;3;10;12;64;;cpython-310-x86_64-linux-gnu;/usr/lib/python3.10;/usr/lib/python3.10;/usr/lib/python3/dist-packages;/usr/lib/python3/dist-packages
 _Python3_INTERPRETER_SIGNATURE:INTERNAL=b91b4035ecb3bb3f5760d35922531bcd
-//Index for unique symlink install targets
-__AMENT_CMAKE_SYMLINK_INSTALL_TARGETS_INDEX:INTERNAL=3
 __pkg_config_arguments__OPENSSL:INTERNAL=QUIET;openssl
 __pkg_config_checked__OPENSSL:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib__OPENSSL_crypto

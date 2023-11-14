@@ -1,0 +1,6 @@
+Invoking command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/src/rm_sensors/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/livox_ros_driver2
+Invoked command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/src/rm_sensors/livox_ros_driver2 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/livox_ros_driver2
+Invoking command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/livox_ros_driver2 -- -j16 -l16
+Invoked command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/livox_ros_driver2 -- -j16 -l16
+Invoking command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/livox_ros_driver2
+Invoked command in '/home/mechax/ws_y/rm_ws/build/livox_ros_driver2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/livox_ros_driver2

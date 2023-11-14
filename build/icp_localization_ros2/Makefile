@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/icp_localization_ros2
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/icp_localization_ros2

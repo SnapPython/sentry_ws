@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/armor_detector
@@ -70,18 +70,18 @@ include CMakeFiles/test_node_startup.dir/progress.make
 include CMakeFiles/test_node_startup.dir/flags.make
 
 CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: CMakeFiles/test_node_startup.dir/flags.make
-CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp
+CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp
 CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o: CMakeFiles/test_node_startup.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o -MF CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o.d -o CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o -c /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o -MF CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o.d -o CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o -c /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp
 
 CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp > CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp > CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.i
 
 CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp -o CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/test/test_node_startup.cpp -o CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.s
 
 # Object files for target test_node_startup
 test_node_startup_OBJECTS = \
@@ -299,6 +299,6 @@ CMakeFiles/test_node_startup.dir/clean:
 .PHONY : CMakeFiles/test_node_startup.dir/clean
 
 CMakeFiles/test_node_startup.dir/depend:
-	cd /home/mechax/ws_y/rm_ws/build/armor_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles/test_node_startup.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mechax/ws_y/rm_ws/build/armor_detector && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector /home/mechax/ws_y/rm_ws/build/armor_detector/CMakeFiles/test_node_startup.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/test_node_startup.dir/depend
 

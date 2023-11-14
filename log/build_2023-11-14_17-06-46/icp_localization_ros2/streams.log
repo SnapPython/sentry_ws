@@ -1,0 +1,223 @@
+[0.150s] Invoking command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/icp_localization_ros2
+[0.356s] -- The C compiler identification is GNU 11.4.0
+[0.357s] -- The CXX compiler identification is GNU 11.4.0
+[0.357s] -- Detecting C compiler ABI info
+[0.358s] -- Detecting C compiler ABI info - done
+[0.358s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.358s] -- Detecting C compile features
+[0.359s] -- Detecting C compile features - done
+[0.359s] -- Detecting CXX compiler ABI info
+[0.381s] -- Detecting CXX compiler ABI info - done
+[0.392s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.392s] -- Detecting CXX compile features
+[0.393s] -- Detecting CXX compile features - done
+[0.395s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.573s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.747s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.750s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.755s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.763s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.777s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.825s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.827s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.910s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.940s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.987s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.993s] -- Looking for pthread.h
+[1.042s] -- Looking for pthread.h - found
+[1.042s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.113s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.115s] -- Found Threads: TRUE  
+[1.512s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.513s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.514s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.752s] -- Checking for module 'eigen3'
+[1.765s] --   Found eigen3, version 3.4.0
+[1.791s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[1.791s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.824s] -- Checking for module 'flann'
+[1.835s] --   Found flann, version 1.9.1
+[1.866s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[1.866s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[3.452s] -- Checking for module 'libusb-1.0'
+[3.524s] --   Found libusb-1.0, version 1.0.25
+[3.754s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.755s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.082s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.422s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.433s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.456s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.750s] -- Found Qhull version 8.0.2
+[5.072s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[5.375s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[5.378s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[5.382s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[5.385s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[5.388s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[5.390s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[5.390s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[5.391s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[5.393s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[5.395s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[5.398s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[5.400s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[5.403s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[5.406s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[5.408s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[5.410s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[5.412s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[5.415s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[5.417s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[5.419s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[5.421s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[5.421s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[5.421s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[5.423s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[5.425s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[5.765s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time 
+[5.775s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread filesystem system program_options date_time chrono 
+[5.888s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.905s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.906s] -- Configured cppcheck include dirs: /home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include
+[5.906s] -- Configured cppcheck exclude dirs and/or files: 
+[5.906s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.907s] -- Added test 'lint_cmake' to check CMake code style
+[5.908s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.910s] -- Added test 'uncrustify' to check C / C++ code style
+[5.910s] -- Configured uncrustify additional arguments: 
+[5.911s] -- Added test 'xmllint' to check XML markup files
+[5.913s] -- Configuring done
+[5.953s] -- Generating done
+[5.956s] -- Build files have been written to: /home/mechax/ws_y/rm_ws/build/icp_localization_ros2
+[5.983s] Invoked command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/icp_localization_ros2
+[5.986s] Invoking command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/icp_localization_ros2 -- -j16 -l16
+[6.045s] [ 29%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/helpers.cpp.o[0m
+[6.045s] [ 29%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/ICPlocalization.cpp.o[0m
+[6.045s] [ 29%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/common/time.cpp.o[0m
+[6.045s] [ 29%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/RangeDataAccumulator.cpp.o[0m
+[6.045s] [ 29%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/common/math.cpp.o[0m
+[6.056s] [ 41%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/FrameTracker.cpp.o[0m
+[6.056s] [ 41%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/localizer_node.cpp.o[0m
+[6.060s] [ 47%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/ImuInterpolationBuffer.cpp.o[0m
+[6.083s] [ 58%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/ImuReading.cpp.o[0m
+[6.084s] [ 58%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/ImuTracker.cpp.o[0m
+[6.093s] [ 64%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/RigidTransform.cpp.o[0m
+[6.110s] [ 70%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/TfPublisher.cpp.o[0m
+[6.118s] [ 76%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/TransformInterpolationBuffer.cpp.o[0m
+[6.196s] [ 82%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/Twist.cpp.o[0m
+[6.228s] [ 94%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/TwistIntegrationBufferRos.cpp.o[0m
+[6.240s] [ 94%] [32mBuilding CXX object CMakeFiles/icp_localization.dir/src/transform/TwistIntegrationBuffer.cpp.o[0m
+[13.673s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:[m[K In member function ‘[01m[Kbool icp_loco::FrameTracker::isReady() const[m[K’:
+[13.673s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:42:68:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Ksize_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} and ‘[01m[Kconst int[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[13.673s]    42 |         const bool isOdomBufferReady = [01;35m[KodomToTrackingCamera_.size()>minNumOdomMeasurementsBeforeReady_[m[K || !isUseOdometryForRangeSensorPosePrediction_;
+[13.673s]       |                                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[13.674s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:[m[K In member function ‘[01m[Kicp_loco::Rigid3d icp_loco::FrameTracker::getTransformOdomSourceToRangeSensor(const Time&) const[m[K’:
+[13.674s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:59:29:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.675s]    59 |                 [01;35m[Kconst Time &time[m[K) const {
+[13.675s]       |                 [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[13.676s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:[m[K In member function ‘[01m[Kicp_loco::Rigid3d icp_loco::FrameTracker::getTransformImuToRangeSensor(const Time&) const[m[K’:
+[13.676s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:63:64:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ktime[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[13.676s]    63 | Rigid3d FrameTracker::getTransformImuToRangeSensor([01;35m[Kconst Time &time[m[K) const {
+[13.676s]       |                                                    [01;35m[K~~~~~~~~~~~~^~~~[m[K
+[13.701s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:[m[K In member function ‘[01m[Kicp_loco::Rigid3d icp_loco::FrameTracker::computeFromImu(const Time&, const Time&) const[m[K’:
+[13.701s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/FrameTracker.cpp:151:22:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KkRadToDeg[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[13.701s]   151 |         const double [01;35m[KkRadToDeg[m[K = 180.0 / M_PI;
+[13.701s]       |                      [01;35m[K^~~~~~~~~[m[K
+[17.687s] In file included from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:8[m[K:
+[17.687s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/transform/ImuTracker.hpp:[m[K In constructor ‘[01m[Kicp_loco::ImuTracker::ImuTracker()[m[K’:
+[17.687s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/transform/ImuTracker.hpp:55:22:[m[K [01;35m[Kwarning: [m[K‘[01m[Kicp_loco::ImuTracker::currentOrientation_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.687s]    55 |   Eigen::Quaterniond [01;35m[KcurrentOrientation_[m[K;
+[17.687s]       |                      [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[17.687s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/transform/ImuTracker.hpp:54:10:[m[K [01;35m[Kwarning: [m[K  ‘[01m[Kdouble icp_loco::ImuTracker::imuGravityTimeConstant_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.687s]    54 |   double [01;35m[KimuGravityTimeConstant_[m[K;
+[17.687s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.687s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:19:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.687s]    19 | [01;35m[KImuTracker[m[K::ImuTracker()
+[17.687s]       | [01;35m[K^~~~~~~~~~[m[K
+[17.687s] In file included from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:8[m[K:
+[17.687s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/transform/ImuTracker.hpp:54:10:[m[K [01;35m[Kwarning: [m[K‘[01m[Kicp_loco::ImuTracker::imuGravityTimeConstant_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.687s]    54 |   double [01;35m[KimuGravityTimeConstant_[m[K;
+[17.688s]       |          [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.688s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/transform/ImuTracker.hpp:53:19:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KEigen::Vector3d icp_loco::ImuTracker::currentGravityVector_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.688s]    53 |   Eigen::Vector3d [01;35m[KcurrentGravityVector_[m[K;
+[17.688s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~[m[K
+[17.688s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:19:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.688s]    19 | [01;35m[KImuTracker[m[K::ImuTracker()
+[17.689s]       | [01;35m[K^~~~~~~~~~[m[K
+[17.689s] In file included from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:8[m[K:
+[17.689s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/transform/ImuTracker.hpp:58:19:[m[K [01;35m[Kwarning: [m[K‘[01m[Kicp_loco::ImuTracker::integratedPosition_[m[K’ will be initialized after [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.689s]    58 |   Eigen::Vector3d [01;35m[KintegratedPosition_[m[K;
+[17.689s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~[m[K
+[17.689s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/transform/ImuTracker.hpp:57:19:[m[K [01;35m[Kwarning: [m[K  ‘[01m[KEigen::Vector3d icp_loco::ImuTracker::integratedLinearVelocity_[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.689s]    57 |   Eigen::Vector3d [01;35m[KintegratedLinearVelocity_[m[K;
+[17.689s]       |                   [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.689s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:19:1:[m[K [01;35m[Kwarning: [m[K  when initialized here [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreorder-Wreorder]8;;[m[K]
+[17.690s]    19 | [01;35m[KImuTracker[m[K::ImuTracker()
+[17.690s]       | [01;35m[K^~~~~~~~~~[m[K
+[17.765s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:[m[K In member function ‘[01m[Kicp_loco::Rigid3d icp_loco::ImuTracker::getLatestOdometry() const[m[K’:
+[17.765s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:110:14:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[KrpyAccelerometer[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[17.766s]   110 |   const auto [01;35m[KrpyAccelerometer[m[K = toRPY(currentOrientation_);
+[17.766s]       |              [01;35m[K^~~~~~~~~~~~~~~~[m[K
+[17.798s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:[m[K In member function ‘[01m[Kvoid icp_loco::ImuTracker::removeGravityAccelerationFromBuffer() const[m[K’:
+[17.798s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:150:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<icp_loco::TimestampedImuReading>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.798s]   150 |   for (int i = 0; [01;35m[Ki < integrationBuffer_.size()[m[K; ++i) {
+[17.798s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.841s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:[m[K In member function ‘[01m[Kvoid icp_loco::ImuTracker::integrateBufferInPlace(icp_loco::ImuTracker::Accessor, const Vector3d&) const[m[K’:
+[17.841s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:171:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<icp_loco::TimestampedImuReading>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.841s]   171 |   for (int i = 1; [01;35m[Ki < integrationBuffer_.size()[m[K; ++i) {
+[17.842s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[17.869s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:[m[K In member function ‘[01m[Kvoid icp_loco::ImuTracker::printBuffer(icp_loco::ImuTracker::Accessor) const[m[K’:
+[17.869s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/transform/ImuTracker.cpp:182:21:[m[K [01;35m[Kwarning: [m[Kcomparison of integer expressions of different signedness: ‘[01m[Kint[m[K’ and ‘[01m[Kstd::vector<icp_loco::TimestampedImuReading>::size_type[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wsign-compare-Wsign-compare]8;;[m[K]
+[17.869s]   182 |   for (int i = 0; [01;35m[Ki < integrationBuffer_.size()[m[K; ++i) {
+[17.869s]       |                   [01;35m[K~~^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[25.878s] In file included from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/localizer_node.cpp:7[m[K:
+[25.878s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/ICPlocalization.hpp:51:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[25.878s]    51 |       const geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr &msg[01;35m[K)[m[K;
+[25.879s]       |                                                                         [01;35m[K^[m[K
+[25.879s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+[25.879s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:49[m[K,
+[25.879s]                  from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/ICPlocalization.hpp:24[m[K,
+[25.879s]                  from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/localizer_node.cpp:7[m[K:
+[25.879s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[25.879s]   115 |     [01;36m[KConstPtr[m[K;
+[25.879s]       |     [01;36m[K^~~~~~~~[m[K
+[27.458s] In file included from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/ICPlocalization.cpp:7[m[K:
+[27.458s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/ICPlocalization.hpp:51:73:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[27.459s]    51 |    const geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr &msg[01;35m[K)[m[K;
+[27.459s]       |                                                                      [01;35m[K^[m[K
+[27.460s] 
+[27.460s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+[27.461s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:49[m[K,
+[27.461s]                  from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/ICPlocalization.hpp:24[m[K,
+[27.461s]                  from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/ICPlocalization.cpp:7[m[K:
+[27.462s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[27.462s]   115 |     [01;36m[KConstPtr[m[K;
+[27.463s]       |     [01;36m[K^~~~~~~~[m[K
+[29.407s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/ICPlocalization.cpp:71:71:[m[K [01;35m[Kwarning: [m[K‘[01m[Kgeometry_msgs::msg::PoseWithCovarianceStamped_<std::allocator<void> >::ConstPtr[m[K’ is deprecated [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[29.408s]    71 |   const geometry_msgs::msg::PoseWithCovarianceStamped::ConstPtr &msg[01;35m[K)[m[K {
+[29.408s]       |                                                                     [01;35m[K^[m[K
+[29.408s] 
+[29.408s] In file included from [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/pose_with_covariance_stamped.hpp:7[m[K,
+[29.408s]                  from [01m[K/opt/ros/humble/include/tf2_geometry_msgs/tf2_geometry_msgs/tf2_geometry_msgs.hpp:49[m[K,
+[29.408s]                  from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/include/icp_localization_ros2/ICPlocalization.hpp:24[m[K,
+[29.408s]                  from [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/ICPlocalization.cpp:7[m[K:
+[29.408s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/pose_with_covariance_stamped__struct.hpp:115:5:[m[K [01;36m[Knote: [m[Kdeclared here
+[29.408s]   115 |     [01;36m[KConstPtr[m[K;
+[29.408s]       |     [01;36m[K^~~~~~~~[m[K
+[29.549s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/ICPlocalization.cpp:[m[K In member function ‘[01m[Kvoid icp_loco::ICPlocalization::icpWorker()[m[K’:
+[29.550s] [01m[K/home/mechax/ws_y/rm_ws/src/rm_localization/icp_localization_ros2/src/ICPlocalization.cpp:374:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[KtimeMs[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[29.550s]   374 |     const double [01;35m[KtimeMs[m[K = nUs / 1000.0;
+[29.550s]       |                  [01;35m[K^~~~~~[m[K
+[50.944s] [100%] [32m[1mLinking CXX executable icp_localization[0m
+[53.906s] [100%] Built target icp_localization
+[53.923s] Invoked command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/icp_localization_ros2 -- -j16 -l16
+[53.995s] Invoking command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/icp_localization_ros2
+[54.006s] -- Install configuration: ""
+[54.006s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/icp_localization_ros2/include
+[54.007s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/icp_localization_ros2/include/icp_localization_ros2
+[54.007s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/icp_localization_ros2/include/icp_localization_ros2/common
+[54.007s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/icp_localization_ros2/include/icp_localization_ros2/transform
+[54.007s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/icp_localization_ros2/share/icp_localization_ros2/launch
+[54.007s] -- Up-to-date: /home/mechax/ws_y/rm_ws/install/icp_localization_ros2/share/icp_localization_ros2/config
+[54.007s] -- Installing: /home/mechax/ws_y/rm_ws/install/icp_localization_ros2/share/icp_localization_ros2/package.dsv
+[54.010s] Invoked command in '/home/mechax/ws_y/rm_ws/build/icp_localization_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/icp_localization_ros2

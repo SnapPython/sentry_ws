@@ -1,0 +1,108 @@
+[0.537s] Invoking command in '/home/mechax/ws_y/rm_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/src/rm_auto_aim/armor_detector -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/armor_detector
+[0.794s] -- The C compiler identification is GNU 11.4.0
+[1.037s] -- The CXX compiler identification is GNU 11.4.0
+[1.064s] -- Detecting C compiler ABI info
+[1.343s] -- Detecting C compiler ABI info - done
+[1.351s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.351s] -- Detecting C compile features
+[1.352s] -- Detecting C compile features - done
+[1.358s] -- Detecting CXX compiler ABI info
+[1.537s] -- Detecting CXX compiler ABI info - done
+[1.547s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.547s] -- Detecting CXX compile features
+[1.548s] -- Detecting CXX compile features - done
+[1.551s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[2.144s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.489s] -- Found OpenCV: /usr (found version "4.5.4") 
+[2.792s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.798s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.809s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.911s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.092s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[3.103s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.469s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.538s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.679s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.705s] -- Looking for pthread.h
+[4.133s] -- Looking for pthread.h - found
+[4.134s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.385s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.387s] -- Found Threads: TRUE  
+[5.706s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[5.708s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[5.708s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[6.088s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[6.110s] -- Found ament_cmake_gtest: 1.3.5 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[6.113s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[6.134s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[6.134s] -- Configured cppcheck include dirs: /home/mechax/ws_y/rm_ws/src/src/rm_auto_aim/armor_detector/include
+[6.135s] -- Configured cppcheck exclude dirs and/or files: 
+[6.136s] -- Added test 'lint_cmake' to check CMake code style
+[6.138s] -- Added test 'xmllint' to check XML markup files
+[6.141s] -- Added test 'clang_format' to check C / C++ code style
+[6.145s] -- Configuring done
+[6.286s] -- Generating done
+[6.290s] -- Build files have been written to: /home/mechax/ws_y/rm_ws/build/armor_detector
+[6.369s] Invoked command in '/home/mechax/ws_y/rm_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/src/rm_auto_aim/armor_detector -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/armor_detector
+[6.370s] Invoking command in '/home/mechax/ws_y/rm_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/armor_detector -- -j16 -l16
+[6.540s] [  6%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[6.614s] [ 13%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector.cpp.o[0m
+[6.615s] [ 20%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/detector_node.cpp.o[0m
+[6.626s] [ 26%] [32mBuilding CXX object CMakeFiles/armor_detector_node.dir/rclcpp_components/node_main_armor_detector_node.cpp.o[0m
+[6.638s] [ 40%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[6.638s] [ 40%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o[0m
+[6.650s] [ 46%] [32mBuilding CXX object CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o[0m
+[7.647s] [ 53%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[7.732s] [ 53%] Built target gtest_main
+[13.106s] [ 60%] [32m[1mLinking CXX static library libgtest.a[0m
+[13.403s] [ 60%] Built target gtest
+[13.774s] [ 66%] [32m[1mLinking CXX executable armor_detector_node[0m
+[14.279s] [ 66%] Built target armor_detector_node
+[38.068s] [ 73%] [32m[1mLinking CXX shared library libarmor_detector.so[0m
+[39.343s] [ 73%] Built target armor_detector
+[39.359s] [ 80%] [32mBuilding CXX object CMakeFiles/test_node_startup.dir/test/test_node_startup.cpp.o[0m
+[39.368s] [ 86%] [32mBuilding CXX object CMakeFiles/test_number_cls.dir/test/test_number_cls.cpp.o[0m
+[41.656s] [ 93%] [32m[1mLinking CXX executable test_number_cls[0m
+[42.326s] [ 93%] Built target test_number_cls
+[43.133s] [100%] [32m[1mLinking CXX executable test_node_startup[0m
+[43.727s] [100%] Built target test_node_startup
+[43.736s] Invoked command in '/home/mechax/ws_y/rm_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/armor_detector -- -j16 -l16
+[43.757s] Invoking command in '/home/mechax/ws_y/rm_ws/build/armor_detector': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/armor_detector
+[43.762s] -- Install configuration: ""
+[43.762s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/lib/armor_detector/armor_detector_node
+[43.762s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/armor_detector/lib/armor_detector/armor_detector_node" to ""
+[43.762s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/include
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/include/armor_detector
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/include/armor_detector/armor.hpp
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/include/armor_detector/number_classifier.hpp
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/include/armor_detector/detector.hpp
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/include/armor_detector/pnp_solver.hpp
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/include/armor_detector/detector_node.hpp
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/environment/library_path.sh
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/environment/library_path.dsv
+[43.763s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/lib/libarmor_detector.so
+[43.771s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/armor_detector/lib/libarmor_detector.so" to ""
+[43.771s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/model
+[43.771s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/model/mlp.onnx
+[43.771s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/model/label.txt
+[43.771s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/ament_index/resource_index/package_run_dependencies/armor_detector
+[43.771s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/ament_index/resource_index/parent_prefix_path/armor_detector
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.sh
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/environment/ament_prefix_path.dsv
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/environment/path.sh
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/environment/path.dsv
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/local_setup.bash
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/local_setup.sh
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/local_setup.zsh
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/local_setup.dsv
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/package.dsv
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/ament_index/resource_index/packages/armor_detector
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/ament_index/resource_index/rclcpp_components/armor_detector
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/cmake/ament_cmake_export_libraries-extras.cmake
+[43.772s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig.cmake
+[43.773s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/cmake/armor_detectorConfig-version.cmake
+[43.773s] -- Installing: /home/mechax/ws_y/rm_ws/install/armor_detector/share/armor_detector/package.xml
+[43.773s] Invoked command in '/home/mechax/ws_y/rm_ws/build/armor_detector' returned '0': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/armor_detector

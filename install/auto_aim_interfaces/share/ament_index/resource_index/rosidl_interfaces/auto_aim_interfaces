@@ -1,1 +1,16 @@
-/home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/ament_cmake_index/share/ament_index/resource_index/rosidl_interfaces/auto_aim_interfaces
+msg/Armor.idl
+msg/Armor.msg
+msg/Armors.idl
+msg/Armors.msg
+msg/DebugArmor.idl
+msg/DebugArmor.msg
+msg/DebugArmors.idl
+msg/DebugArmors.msg
+msg/DebugLight.idl
+msg/DebugLight.msg
+msg/DebugLights.idl
+msg/DebugLights.msg
+msg/Target.idl
+msg/Target.msg
+msg/TrackerInfo.idl
+msg/TrackerInfo.msg

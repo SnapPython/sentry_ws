@@ -1,5 +1,5 @@
 # CMake generated Testfile for 
-# Source directory: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_localization/fast_lio
+# Source directory: /home/mechax/ws_y/rm_ws/src/rm_localization/fast_lio
 # Build directory: /home/mechax/ws_y/rm_ws/build/fast_lio
 # 
 # This file includes the relevant testing commands required for 

@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_perception/linefit_ground_segementation_ros2/linefit_ground_segmentation
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/linefit_ground_segmentation

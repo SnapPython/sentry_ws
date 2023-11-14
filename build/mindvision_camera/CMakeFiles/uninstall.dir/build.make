@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/ros2-mindvision-camera
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/ros2-mindvision-camera
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/mindvision_camera
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/mechax/ws_y/rm_ws/build/mindvision_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/ros2-mindvision-camera /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/ros2-mindvision-camera /home/mechax/ws_y/rm_ws/build/mindvision_camera /home/mechax/ws_y/rm_ws/build/mindvision_camera /home/mechax/ws_y/rm_ws/build/mindvision_camera/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mechax/ws_y/rm_ws/build/mindvision_camera && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/ros2-mindvision-camera /home/mechax/ws_y/rm_ws/src/ros2-mindvision-camera /home/mechax/ws_y/rm_ws/build/mindvision_camera /home/mechax/ws_y/rm_ws/build/mindvision_camera /home/mechax/ws_y/rm_ws/build/mindvision_camera/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

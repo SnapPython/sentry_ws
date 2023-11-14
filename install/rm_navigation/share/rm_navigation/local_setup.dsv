@@ -1,2 +1,1 @@
-source;share/rm_navigation/environment/ament_prefix_path.sh
-source;share/rm_navigation/environment/path.sh
+/home/mechax/ws_y/rm_ws/build/rm_navigation/ament_cmake_environment_hooks/local_setup.dsv

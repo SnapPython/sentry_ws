@@ -1,0 +1,9 @@
+[0.213s] Invoking command in '/home/mechax/ws_y/rm_ws/build/auto_aim_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces -- -j16 -l16
+[0.422s] failed to create symbolic link '/home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/ament_cmake_python/auto_aim_interfaces/auto_aim_interfaces' because existing path cannot be removed: Is a directory
+[0.422s] gmake[2]: *** [CMakeFiles/ament_cmake_python_symlink_auto_aim_interfaces.dir/build.make:70: CMakeFiles/ament_cmake_python_symlink_auto_aim_interfaces] Error 1
+[0.422s] gmake[1]: *** [CMakeFiles/Makefile2:421: CMakeFiles/ament_cmake_python_symlink_auto_aim_interfaces.dir/all] Error 2
+[0.422s] gmake[1]: *** Waiting for unfinished jobs....
+[0.423s] gmake: *** [Makefile:146: all] Error 2
+[0.424s] [  1%] Built target auto_aim_interfaces__cpp
+[0.424s] [ 12%] Built target auto_aim_interfaces__rosidl_generator_c
+[0.438s] Invoked command in '/home/mechax/ws_y/rm_ws/build/auto_aim_interfaces' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces -- -j16 -l16

@@ -1,1 +1,4 @@
-/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces/msg/Armor.msg
+string number
+string type
+float32 distance_to_image_center
+geometry_msgs/Pose pose

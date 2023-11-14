@@ -1,0 +1,29 @@
+[100%] Built target linefit_ground_segmentation
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/include/ground_segmentation/bin.h
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/include/ground_segmentation/ground_segmentation.h
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/include/ground_segmentation/segment.h
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/include/ground_segmentation/typedefs.h
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/include/ground_segmentation/viewer.h
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.sh
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/library_path.dsv
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/lib/liblinefit_ground_segmentation.so
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/package_run_dependencies/linefit_ground_segmentation
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/parent_prefix_path/linefit_ground_segmentation
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.sh
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.sh
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/environment/path.dsv
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.bash
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.sh
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.zsh
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/local_setup.dsv
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.dsv
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/ament_index/resource_index/packages/linefit_ground_segmentation
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_include_directories-extras.cmake
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/ament_cmake_export_libraries-extras.cmake
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig.cmake
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/cmake/linefit_ground_segmentationConfig-version.cmake
+-- Symlinking: /home/mechax/ws_y/rm_ws/install/linefit_ground_segmentation/share/linefit_ground_segmentation/package.xml

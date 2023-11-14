@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces
@@ -262,6 +262,6 @@ auto_aim_interfaces__py/CMakeFiles/auto_aim_interfaces__py.dir/clean:
 .PHONY : auto_aim_interfaces__py/CMakeFiles/auto_aim_interfaces__py.dir/clean
 
 auto_aim_interfaces__py/CMakeFiles/auto_aim_interfaces__py.dir/depend:
-	cd /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/auto_aim_interfaces__py /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/auto_aim_interfaces__py /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/auto_aim_interfaces__py/CMakeFiles/auto_aim_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/auto_aim_interfaces__py /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/auto_aim_interfaces__py /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces/auto_aim_interfaces__py/CMakeFiles/auto_aim_interfaces__py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : auto_aim_interfaces__py/CMakeFiles/auto_aim_interfaces__py.dir/depend
 

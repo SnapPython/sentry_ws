@@ -1,0 +1,52 @@
+[0.305s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_bringup -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_bringup
+[0.357s] -- The C compiler identification is GNU 11.4.0
+[0.411s] -- The CXX compiler identification is GNU 11.4.0
+[0.420s] -- Detecting C compiler ABI info
+[0.513s] -- Detecting C compiler ABI info - done
+[0.521s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.522s] -- Detecting C compile features
+[0.522s] -- Detecting C compile features - done
+[0.524s] -- Detecting CXX compiler ABI info
+[0.631s] -- Detecting CXX compiler ABI info - done
+[0.640s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.640s] -- Detecting CXX compile features
+[0.641s] -- Detecting CXX compile features - done
+[0.643s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.838s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.946s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.059s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.060s] -- Added test 'lint_cmake' to check CMake code style
+[1.060s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.062s] -- Added test 'xmllint' to check XML markup files
+[1.063s] -- Configuring done
+[1.066s] -- Generating done
+[1.067s] -- Build files have been written to: /home/mechax/ws_y/rm_ws/build/rm_bringup
+[1.075s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_bringup -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_bringup
+[1.077s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_bringup -- -j16 -l16
+[1.155s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_bringup -- -j16 -l16
+[1.307s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/rm_bringup
+[1.313s] -- Install configuration: ""
+[1.313s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/src
+[1.313s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/src/urdf
+[1.313s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/src/urdf/test.urdf
+[1.314s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/src/urdf/shaobing.urdf
+[1.314s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/launch
+[1.314s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/launch/bringup.launch.py
+[1.314s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/rviz
+[1.317s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/rviz/urdf_config.rviz
+[1.318s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/ament_index/resource_index/package_run_dependencies/rm_bringup
+[1.318s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/ament_index/resource_index/parent_prefix_path/rm_bringup
+[1.318s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/environment/ament_prefix_path.sh
+[1.318s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/environment/ament_prefix_path.dsv
+[1.318s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/environment/path.sh
+[1.319s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/environment/path.dsv
+[1.319s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/local_setup.bash
+[1.319s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/local_setup.sh
+[1.319s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/local_setup.zsh
+[1.320s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/local_setup.dsv
+[1.320s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/package.dsv
+[1.320s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/ament_index/resource_index/packages/rm_bringup
+[1.321s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/cmake/rm_bringupConfig.cmake
+[1.321s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/cmake/rm_bringupConfig-version.cmake
+[1.321s] -- Installing: /home/mechax/ws_y/rm_ws/install/rm_bringup/share/rm_bringup/package.xml
+[1.437s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/rm_bringup

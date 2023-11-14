@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector.cpp" "CMakeFiles/armor_detector.dir/src/detector.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/detector.cpp.o.d"
-  "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/detector_node.cpp" "CMakeFiles/armor_detector.dir/src/detector_node.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/detector_node.cpp.o.d"
-  "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/number_classifier.cpp" "CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o.d"
-  "/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp" "CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o.d"
+  "/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector.cpp" "CMakeFiles/armor_detector.dir/src/detector.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/detector.cpp.o.d"
+  "/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/detector_node.cpp" "CMakeFiles/armor_detector.dir/src/detector_node.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/detector_node.cpp.o.d"
+  "/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/number_classifier.cpp" "CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/number_classifier.cpp.o.d"
+  "/home/mechax/ws_y/rm_ws/src/rm_auto_aim/armor_detector/src/pnp_solver.cpp" "CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o" "gcc" "CMakeFiles/armor_detector.dir/src/pnp_solver.cpp.o.d"
   )
 
 # Targets to which this target links.

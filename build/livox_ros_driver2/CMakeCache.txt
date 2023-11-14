@@ -1186,7 +1186,7 @@ livox_ros_driver2_BINARY_DIR:STATIC=/home/mechax/ws_y/rm_ws/build/livox_ros_driv
 livox_ros_driver2_IS_TOP_LEVEL:STATIC=ON
 
 //Value Computed by CMake
-livox_ros_driver2_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_sensors/livox_ros_driver2
+livox_ros_driver2_SOURCE_DIR:STATIC=/home/mechax/ws_y/rm_ws/src/rm_sensors/livox_ros_driver2
 
 //The directory containing a CMake configuration file for message_filters.
 message_filters_DIR:PATH=/opt/ros/humble/share/message_filters/cmake
@@ -1483,7 +1483,7 @@ CMAKE_HAVE_REMOVE:INTERNAL=1
 CMAKE_HAVE_SHMAT:INTERNAL=1
 //Source directory with the top level CMakeLists.txt file for this
 // project
-CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_sensors/livox_ros_driver2
+CMAKE_HOME_DIRECTORY:INTERNAL=/home/mechax/ws_y/rm_ws/src/rm_sensors/livox_ros_driver2
 //Install .so files without execute permission.
 CMAKE_INSTALL_SO_NO_EXE:INTERNAL=1
 //Have library ICE

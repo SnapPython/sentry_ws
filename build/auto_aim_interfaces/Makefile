@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/auto_aim_interfaces
+CMAKE_SOURCE_DIR = /home/mechax/ws_y/rm_ws/src/rm_auto_aim/auto_aim_interfaces
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/mechax/ws_y/rm_ws/build/auto_aim_interfaces
@@ -315,17 +315,17 @@ auto_aim_interfaces__rosidl_typesupport_cpp/fast:
 .PHONY : auto_aim_interfaces__rosidl_typesupport_cpp/fast
 
 #=============================================================================
-# Target rules for targets named ament_cmake_python_symlink_auto_aim_interfaces
+# Target rules for targets named ament_cmake_python_copy_auto_aim_interfaces
 
 # Build rule for target.
-ament_cmake_python_symlink_auto_aim_interfaces: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_symlink_auto_aim_interfaces
-.PHONY : ament_cmake_python_symlink_auto_aim_interfaces
+ament_cmake_python_copy_auto_aim_interfaces: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ament_cmake_python_copy_auto_aim_interfaces
+.PHONY : ament_cmake_python_copy_auto_aim_interfaces
 
 # fast build rule for target.
-ament_cmake_python_symlink_auto_aim_interfaces/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_symlink_auto_aim_interfaces.dir/build.make CMakeFiles/ament_cmake_python_symlink_auto_aim_interfaces.dir/build
-.PHONY : ament_cmake_python_symlink_auto_aim_interfaces/fast
+ament_cmake_python_copy_auto_aim_interfaces/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ament_cmake_python_copy_auto_aim_interfaces.dir/build.make CMakeFiles/ament_cmake_python_copy_auto_aim_interfaces.dir/build
+.PHONY : ament_cmake_python_copy_auto_aim_interfaces/fast
 
 #=============================================================================
 # Target rules for targets named ament_cmake_python_build_auto_aim_interfaces_egg
@@ -2027,7 +2027,7 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... ament_cmake_python_build_auto_aim_interfaces_egg"
-	@echo "... ament_cmake_python_symlink_auto_aim_interfaces"
+	@echo "... ament_cmake_python_copy_auto_aim_interfaces"
 	@echo "... auto_aim_interfaces"
 	@echo "... auto_aim_interfaces__cpp"
 	@echo "... auto_aim_interfaces__py"

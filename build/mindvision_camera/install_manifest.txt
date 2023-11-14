@@ -1,0 +1,1 @@
+/home/mechax/ws_y/rm_ws/install/mindvision_camera/share/mindvision_camera/package.dsv

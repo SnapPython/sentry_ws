@@ -1,2 +1,1 @@
-source;share/icp_localization_ros2/environment/ament_prefix_path.sh
-source;share/icp_localization_ros2/environment/path.sh
+/home/mechax/ws_y/rm_ws/build/icp_localization_ros2/ament_cmake_environment_hooks/local_setup.dsv

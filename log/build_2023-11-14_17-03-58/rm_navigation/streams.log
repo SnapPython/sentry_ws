@@ -1,0 +1,56 @@
+[0.246s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_navigation
+[0.258s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.380s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.387s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.449s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.449s] -- Added test 'lint_cmake' to check CMake code style
+[0.450s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.451s] -- Added test 'xmllint' to check XML markup files
+[0.452s] -- Configuring done
+[0.455s] -- Generating done
+[0.456s] -- Build files have been written to: /home/mechax/ws_y/rm_ws/build/rm_navigation
+[0.459s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/rm_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/rm_navigation
+[0.460s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_navigation -- -j16 -l16
+[0.498s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/rm_navigation -- -j16 -l16
+[0.511s] Invoking command in '/home/mechax/ws_y/rm_ws/build/rm_navigation': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/rm_navigation
+[0.518s] -- Install configuration: ""
+[0.518s] -- Execute custom install script
+[0.519s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/params/mapper_params_online_async.yaml
+[0.527s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/params/nav2_params.yaml
+[0.534s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/launch/bringup_launch.py
+[0.539s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/launch/bringup_no_amcl_launch.py
+[0.548s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/launch/localization_launch.py
+[0.557s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/launch/navigation_launch.py
+[0.563s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/launch/online_async_launch.py
+[0.568s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/launch/rviz_launch.py
+[0.574s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/launch/slam_launch.py
+[0.580s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map.pgm
+[0.585s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map.yaml
+[0.594s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1693979014.pgm
+[0.600s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1693985699.pgm
+[0.609s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1694007542.pgm
+[0.619s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1694007542.yaml
+[0.626s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1694431716.pgm
+[0.631s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1694431716.yaml
+[0.637s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1694438103.pgm
+[0.643s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1694438103.yaml
+[0.649s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1695900691.pgm
+[0.654s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_1695900691.yaml
+[0.661s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/map_o.yaml
+[0.665s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/map/ssdsad.yaml
+[0.674s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/ament_index/resource_index/package_run_dependencies/rm_navigation
+[0.683s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/ament_index/resource_index/parent_prefix_path/rm_navigation
+[0.692s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/environment/ament_prefix_path.sh
+[0.702s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/environment/ament_prefix_path.dsv
+[0.710s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/environment/path.sh
+[0.716s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/environment/path.dsv
+[0.721s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/local_setup.bash
+[0.730s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/local_setup.sh
+[0.735s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/local_setup.zsh
+[0.741s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/local_setup.dsv
+[0.749s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/package.dsv
+[0.758s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/ament_index/resource_index/packages/rm_navigation
+[0.766s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/cmake/rm_navigationConfig.cmake
+[0.775s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/cmake/rm_navigationConfig-version.cmake
+[0.783s] -- Symlinking: /home/mechax/ws_y/rm_ws/install/rm_navigation/share/rm_navigation/package.xml
+[0.790s] Invoked command in '/home/mechax/ws_y/rm_ws/build/rm_navigation' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/rm_navigation
