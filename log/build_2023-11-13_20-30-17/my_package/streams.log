@@ -1,0 +1,44 @@
+[0.416s] Invoking command in '/home/mechax/ws_y/rm_ws/build/my_package': PYTHONPATH=/home/mechax/ws_y/rm_ws/build/my_package/prefix_override:/home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mechax/ws_y/rm_ws/build/my_package/build
+[0.548s] running develop
+[0.548s] /usr/lib/python3/dist-packages/setuptools/command/easy_install.py:158: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[0.549s]   warnings.warn(
+[0.549s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.549s]   warnings.warn(
+[0.625s] Removing /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my-package.egg-link (link to .)
+[0.647s] Invoked command in '/home/mechax/ws_y/rm_ws/build/my_package' returned '0': PYTHONPATH=/home/mechax/ws_y/rm_ws/build/my_package/prefix_override:/home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/mechax/ws_y/rm_ws/build/my_package/build
+[0.648s] Invoking command in '/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/my_package': PYTHONPATH=/home/mechax/ws_y/rm_ws/build/my_package/prefix_override:/home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/my_package build --build-base /home/mechax/ws_y/rm_ws/build/my_package/build install --record /home/mechax/ws_y/rm_ws/build/my_package/install.log --single-version-externally-managed
+[0.764s] running egg_info
+[0.765s] writing ../../../../build/my_package/my_package.egg-info/PKG-INFO
+[0.765s] writing dependency_links to ../../../../build/my_package/my_package.egg-info/dependency_links.txt
+[0.765s] writing entry points to ../../../../build/my_package/my_package.egg-info/entry_points.txt
+[0.765s] writing requirements to ../../../../build/my_package/my_package.egg-info/requires.txt
+[0.765s] writing top-level names to ../../../../build/my_package/my_package.egg-info/top_level.txt
+[0.766s] reading manifest file '../../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.766s] adding license file 'LICENSE'
+[0.766s] writing manifest file '../../../../build/my_package/my_package.egg-info/SOURCES.txt'
+[0.766s] running build
+[0.766s] running build_py
+[0.766s] creating /home/mechax/ws_y/rm_ws/build/my_package/build
+[0.767s] creating /home/mechax/ws_y/rm_ws/build/my_package/build/lib
+[0.767s] creating /home/mechax/ws_y/rm_ws/build/my_package/build/lib/my_package
+[0.767s] copying my_package/my_robot_driver.py -> /home/mechax/ws_y/rm_ws/build/my_package/build/lib/my_package
+[0.767s] copying my_package/armor_robot_driver.py -> /home/mechax/ws_y/rm_ws/build/my_package/build/lib/my_package
+[0.767s] copying my_package/__init__.py -> /home/mechax/ws_y/rm_ws/build/my_package/build/lib/my_package
+[0.767s] running install
+[0.767s] running install_lib
+[0.767s] /usr/lib/python3/dist-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[0.767s]   warnings.warn(
+[0.767s] creating /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.767s] copying /home/mechax/ws_y/rm_ws/build/my_package/build/lib/my_package/my_robot_driver.py -> /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.767s] copying /home/mechax/ws_y/rm_ws/build/my_package/build/lib/my_package/armor_robot_driver.py -> /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.767s] copying /home/mechax/ws_y/rm_ws/build/my_package/build/lib/my_package/__init__.py -> /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package
+[0.767s] byte-compiling /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package/my_robot_driver.py to my_robot_driver.cpython-310.pyc
+[0.768s] byte-compiling /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package/armor_robot_driver.py to armor_robot_driver.cpython-310.pyc
+[0.768s] byte-compiling /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package/__init__.py to __init__.cpython-310.pyc
+[0.768s] running install_data
+[0.768s] running install_egg_info
+[0.769s] Copying ../../../../build/my_package/my_package.egg-info to /home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages/my_package-0.0.0-py3.10.egg-info
+[0.769s] running install_scripts
+[0.782s] Installing my_robot_driver script to /home/mechax/ws_y/rm_ws/install/my_package/lib/my_package
+[0.782s] writing list of installed files to '/home/mechax/ws_y/rm_ws/build/my_package/install.log'
+[0.797s] Invoked command in '/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/my_package' returned '0': PYTHONPATH=/home/mechax/ws_y/rm_ws/build/my_package/prefix_override:/home/mechax/ws_y/rm_ws/install/my_package/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../../build/my_package build --build-base /home/mechax/ws_y/rm_ws/build/my_package/build install --record /home/mechax/ws_y/rm_ws/build/my_package/install.log --single-version-externally-managed

@@ -1,0 +1,15 @@
+[0.064s] Invoking command in '/home/mechax/ws_y/rm_ws/build/armor_tracker': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/armor_tracker -- -j16 -l16
+[0.088s] [35m[1mConsolidate compiler generated dependencies of target armor_tracker[0m
+[0.094s] [ 33%] Built target armor_tracker_node
+[0.104s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o[0m
+[1.972s] [01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:[m[K In member function ‘[01m[Kvoid rm_auto_aim::ArmorTrackerNode::armorsCallback(auto_aim_interfaces::msg::Armors_<std::allocator<void> >::SharedPtr)[m[K’:
+[1.972s] [01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:276:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat tar_yaw[m[K’
+[1.972s]   276 |       float [01;31m[Ktar_yaw[m[K = (float)(atan2(tar_position[idx].y, tar_position[idx].x));
+[1.973s]       |             [01;31m[K^~~~~~~[m[K
+[1.973s] [01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:264:12:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat tar_yaw[m[K’ previously declared here
+[1.973s]   264 |      float [01;36m[Ktar_yaw[m[K = state(7) * timeDelay;
+[1.973s]       |            [01;36m[K^~~~~~~[m[K
+[3.844s] gmake[2]: *** [CMakeFiles/armor_tracker.dir/build.make:104: CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o] Error 1
+[3.844s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/armor_tracker.dir/all] Error 2
+[3.844s] gmake: *** [Makefile:146: all] Error 2
+[3.846s] Invoked command in '/home/mechax/ws_y/rm_ws/build/armor_tracker' returned '2': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/armor_tracker -- -j16 -l16

@@ -1,0 +1,106 @@
+[0.261s] Invoking command in '/home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan
+[0.319s] -- The C compiler identification is GNU 11.4.0
+[0.360s] -- The CXX compiler identification is GNU 11.4.0
+[0.365s] -- Detecting C compiler ABI info
+[0.419s] -- Detecting C compiler ABI info - done
+[0.428s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.428s] -- Detecting C compile features
+[0.428s] -- Detecting C compile features - done
+[0.431s] -- Detecting CXX compiler ABI info
+[0.484s] -- Detecting CXX compiler ABI info - done
+[0.488s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.489s] -- Detecting CXX compile features
+[0.489s] -- Detecting CXX compile features - done
+[0.490s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.608s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.748s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.751s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.756s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.764s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.776s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.819s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.821s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.886s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.902s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.932s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.942s] -- Looking for pthread.h
+[0.987s] -- Looking for pthread.h - found
+[0.988s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.049s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.050s] -- Found Threads: TRUE  
+[1.503s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.513s] -- Configured cppcheck include dirs: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/pointcloud_to_laserscan/include
+[1.513s] -- Configured cppcheck exclude dirs and/or files: 
+[1.513s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.513s] -- Configured cpplint exclude dirs and/or files: 
+[1.514s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.514s] -- Added test 'lint_cmake' to check CMake code style
+[1.514s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.514s] -- Added test 'uncrustify' to check C / C++ code style
+[1.515s] -- Configured uncrustify additional arguments: 
+[1.515s] -- Added test 'xmllint' to check XML markup files
+[1.516s] -- Configuring done
+[1.534s] -- Generating done
+[1.534s] -- Build files have been written to: /home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan
+[1.547s] Invoked command in '/home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_perception/pointcloud_to_laserscan -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan
+[1.549s] Invoking command in '/home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan -- -j16 -l16
+[1.579s] [ 20%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud_node.dir/rclcpp_components/node_main_laserscan_to_pointcloud_node.cpp.o[0m
+[1.579s] [ 20%] [32mBuilding CXX object CMakeFiles/laserscan_to_pointcloud.dir/src/laserscan_to_pointcloud_node.cpp.o[0m
+[1.586s] [ 30%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan_node.dir/rclcpp_components/node_main_pointcloud_to_laserscan_node.cpp.o[0m
+[4.143s] [ 40%] [32m[1mLinking CXX executable laserscan_to_pointcloud_node[0m
+[4.564s] [ 40%] Built target laserscan_to_pointcloud_node
+[4.965s] [ 50%] [32m[1mLinking CXX executable pointcloud_to_laserscan_node[0m
+[5.273s] [ 50%] Built target pointcloud_to_laserscan_node
+[28.503s] [ 60%] [32m[1mLinking CXX shared library liblaserscan_to_pointcloud.so[0m
+[28.779s] [ 60%] Built target laserscan_to_pointcloud
+[28.806s] [ 70%] [32mBuilding CXX object CMakeFiles/pointcloud_to_laserscan.dir/src/pointcloud_to_laserscan_node.cpp.o[0m
+[40.104s] [ 80%] [32m[1mLinking CXX shared library libpointcloud_to_laserscan.so[0m
+[40.228s] [ 80%] Built target pointcloud_to_laserscan
+[40.244s] [ 90%] [32mBuilding CXX object CMakeFiles/dummy_pointcloud_publisher.dir/src/dummy_pointcloud_publisher.cpp.o[0m
+[43.661s] [100%] [32m[1mLinking CXX executable dummy_pointcloud_publisher[0m
+[43.757s] [100%] Built target dummy_pointcloud_publisher
+[43.766s] Invoked command in '/home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan -- -j16 -l16
+[43.787s] Invoking command in '/home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan
+[43.790s] -- Install configuration: ""
+[43.791s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node
+[43.791s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/laserscan_to_pointcloud_node" to ""
+[43.791s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node
+[43.791s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/pointcloud_to_laserscan_node" to ""
+[43.791s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/include
+[43.791s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan
+[43.791s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/pointcloud_to_laserscan_node.hpp
+[43.791s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/laserscan_to_pointcloud_node.hpp
+[43.791s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/include/pointcloud_to_laserscan/visibility_control.h
+[43.792s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.sh
+[43.792s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/library_path.dsv
+[43.792s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so
+[43.792s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/liblaserscan_to_pointcloud.so" to ""
+[43.792s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so
+[43.793s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/libpointcloud_to_laserscan.so" to ""
+[43.793s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher
+[43.793s] -- Set runtime path of "/home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/lib/pointcloud_to_laserscan/dummy_pointcloud_publisher" to ""
+[43.793s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch
+[43.793s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_pointcloud_to_laserscan_launch.py
+[43.794s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/sample_laserscan_to_pointcloud_launch.py
+[43.794s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/launch/pointcloud_to_laserscan_launch.py
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/package_run_dependencies/pointcloud_to_laserscan
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/parent_prefix_path/pointcloud_to_laserscan
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.sh
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/ament_prefix_path.dsv
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.sh
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/environment/path.dsv
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.bash
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.sh
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.zsh
+[43.795s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/local_setup.dsv
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.dsv
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/packages/pointcloud_to_laserscan
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/ament_index/resource_index/rclcpp_components/pointcloud_to_laserscan
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_dependencies-extras.cmake
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_include_directories-extras.cmake
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/ament_cmake_export_libraries-extras.cmake
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig.cmake
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/cmake/pointcloud_to_laserscanConfig-version.cmake
+[43.796s] -- Installing: /home/mechax/ws_y/rm_ws/install/pointcloud_to_laserscan/share/pointcloud_to_laserscan/package.xml
+[43.797s] Invoked command in '/home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/mechax/ws_y/rm_ws/build/pointcloud_to_laserscan

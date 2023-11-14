@@ -1,0 +1,68 @@
+[0.042s] Invoking command in '/home/mechax/ws_y/rm_ws/build/armor_tracker': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/armor_tracker
+[0.074s] -- The C compiler identification is GNU 11.4.0
+[0.105s] -- The CXX compiler identification is GNU 11.4.0
+[0.109s] -- Detecting C compiler ABI info
+[0.148s] -- Detecting C compiler ABI info - done
+[0.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.153s] -- Detecting C compile features
+[0.153s] -- Detecting C compile features - done
+[0.155s] -- Detecting CXX compiler ABI info
+[0.202s] -- Detecting CXX compiler ABI info - done
+[0.207s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.208s] -- Detecting CXX compile features
+[0.208s] -- Detecting CXX compile features - done
+[0.209s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.311s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.349s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.426s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.428s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.433s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.440s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.451s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.491s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.492s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.548s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.564s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.591s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.597s] -- Looking for pthread.h
+[0.637s] -- Looking for pthread.h - found
+[0.637s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[0.680s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[0.681s] -- Found Threads: TRUE  
+[1.001s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[1.002s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[1.002s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[1.206s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.219s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.219s] -- Configured cppcheck include dirs: /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/include
+[1.219s] -- Configured cppcheck exclude dirs and/or files: 
+[1.220s] -- Added test 'lint_cmake' to check CMake code style
+[1.220s] -- Added test 'xmllint' to check XML markup files
+[1.220s] -- Added test 'clang_format' to check C / C++ code style
+[1.222s] -- Configuring done
+[1.231s] -- Generating done
+[1.232s] -- Build files have been written to: /home/mechax/ws_y/rm_ws/build/armor_tracker
+[1.238s] Invoked command in '/home/mechax/ws_y/rm_ws/build/armor_tracker' returned '0': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mechax/ws_y/rm_ws/install/armor_tracker
+[1.240s] Invoking command in '/home/mechax/ws_y/rm_ws/build/armor_tracker': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/armor_tracker -- -j16 -l16
+[1.270s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/extended_kalman_filter.cpp.o[0m
+[1.270s] [ 33%] [32mBuilding CXX object CMakeFiles/armor_tracker_node.dir/rclcpp_components/node_main_armor_tracker_node.cpp.o[0m
+[1.272s] [ 50%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker.cpp.o[0m
+[1.272s] [ 66%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o[0m
+[3.843s] [ 83%] [32m[1mLinking CXX executable armor_tracker_node[0m
+[3.990s] [ 83%] Built target armor_tracker_node
+[5.417s] [01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:[m[K In member function ‘[01m[Kvoid rm_auto_aim::ArmorTrackerNode::armorsCallback(auto_aim_interfaces::msg::Armors_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.417s] [01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:263:20:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[K+=[m[K’ token
+[5.418s]   263 |      float tar_yaw [01;31m[K+=[m[K state(7) * timeDelay;
+[5.418s]       |                    [01;31m[K^~[m[K
+[5.423s] [01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:265:27:[m[K [01;31m[Kerror: [m[K‘[01m[Ktar_yaw[m[K’ was not declared in this scope; did you mean ‘[01m[Kr_yaw[m[K’?
+[5.423s]   265 |           float tmp_yaw = [01;31m[Ktar_yaw[m[K + i * M_PI/2.0;
+[5.423s]       |                           [01;31m[K^~~~~~~[m[K
+[5.423s]       |                           [32m[Kr_yaw[m[K
+[5.425s] [01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:262:12:[m[K [01;31m[Kerror: [m[Kunused variable ‘[01m[KtimeDelay[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Werror=unused-variable]8;;[m[K]
+[5.425s]   262 |      float [01;31m[KtimeDelay[m[K = 2.1;
+[5.425s]       |            [01;31m[K^~~~~~~~~[m[K
+[7.682s] cc1plus: all warnings being treated as errors
+[7.703s] gmake[2]: *** [CMakeFiles/armor_tracker.dir/build.make:104: CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o] Error 1
+[7.703s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/armor_tracker.dir/all] Error 2
+[7.703s] gmake: *** [Makefile:146: all] Error 2
+[7.705s] Invoked command in '/home/mechax/ws_y/rm_ws/build/armor_tracker' returned '2': AMENT_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mechax/ws_y/rm_ws/install/auto_aim_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/mechax/ws_y/rm_ws/build/armor_tracker -- -j16 -l16

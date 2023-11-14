@@ -1,0 +1,1 @@
+/home/mechax/ws_y/rm_ws/build/mindvision_camera/ament_cmake_core/mindvision_cameraConfig.cmake

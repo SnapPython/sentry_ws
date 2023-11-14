@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target armor_tracker[0m
+[ 33%] Built target armor_tracker_node
+[ 50%] [32mBuilding CXX object CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o[0m
+[01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:[m[K In member function ‘[01m[Kvoid rm_auto_aim::ArmorTrackerNode::armorsCallback(auto_aim_interfaces::msg::Armors_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:276:13:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kfloat tar_yaw[m[K’
+  276 |       float [01;31m[Ktar_yaw[m[K = (float)(atan2(tar_position[idx].y, tar_position[idx].x));
+      |             [01;31m[K^~~~~~~[m[K
+[01m[K/home/mechax/ws_y/rm_ws/src/mechax_rm_cv/src/rm_auto_aim/armor_tracker/src/tracker_node.cpp:264:12:[m[K [01;36m[Knote: [m[K‘[01m[Kfloat tar_yaw[m[K’ previously declared here
+  264 |      float [01;36m[Ktar_yaw[m[K = state(7) * timeDelay;
+      |            [01;36m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/armor_tracker.dir/build.make:104: CMakeFiles/armor_tracker.dir/src/tracker_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/armor_tracker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
